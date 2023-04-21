@@ -2,6 +2,8 @@
 
 This Chrome extension allows you to toggle hiding verified posts on Twitter. When the extension is active, it will hide all tweets from verified users.
 
+<div style="width:100%;height:0px;position:relative;padding-bottom:143.600%;"><iframe src="https://streamable.com/e/aawiqe" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
 ### How to use
 
 1. Install the extension in your Chrome browser.
