@@ -29,3 +29,7 @@ https://user-images.githubusercontent.com/11499173/233733362-86a3f910-4a62-4b4a-
 - The extension works by adding or removing the `hideClass` ("hidden-verified-user") to the tweet container.
 - The hiding preference is stored in `chrome.storage.sync`, allowing the preference to sync across devices.
 - The `setInterval` function is used to periodically re-check and apply the hiding preference to ensure it works with the dynamic loading of tweets on Twitter.
+
+
+If you want to try to block people without using the soon(tm) to be defunct api as well, try this untested code:
+https://gist.github.com/sardistic/e7c9973d79d1f17d0e4f1d541de3dc16
