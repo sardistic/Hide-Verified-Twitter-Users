@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Hide Verified Twitter Users",
+  "version": "1.0",
+  "description": "A Chrome extension that hides verified Twitter users' posts.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting", "storage", "tabs"]
+}

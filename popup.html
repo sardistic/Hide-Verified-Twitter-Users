@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 16px;
+        width: 300px;
+      }
+      .toggle {
+        display: inline-block;
+        height: 20px;
+        position: relative;
+        width: 40px;
+      }
+      .toggle input {
+        display: none;
+      }
+      .slider {
+        background-color: #ccc;
+        bottom: 0;
+        cursor: pointer;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: 0.4s;
+      }
+      .slider:before {
+        background-color: white;
+        bottom: 4px;
+        content: "";
+        height: 12px;
+        left: 4px;
+        position: absolute;
+        transition: 0.4s;
+        width: 12px;
+      }
+      input:checked + .slider {
+        background-color: #1da1f2;
+      }
+      input:checked + .slider:before {
+        transform: translateX(20px);
+      }
+      .slider.round {
+        border-radius: 34px;
+      }
+      .slider.round:before {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hide Verified Twitter Users</h1>
+    <p>Toggle the switch to hide or show verified Twitter users' posts:</p>
+    <label class="toggle">
+      <input type="checkbox" id="toggleSwitch" />
+      <span class="slider round"></span>
+    </label>
+    <script src="popup.js"></script>
+  </body>
+</html>
